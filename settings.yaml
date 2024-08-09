@@ -1,0 +1,16 @@
+# website_settings.yaml
+
+# General Settings
+site_title: "Our Portfolio"
+site_description: "Welcome to our website, where we share our least shitty projects."
+
+# Color Themes
+primary_color: "#FF3562" 
+secondary_color: "#693668" 
+accent_color: "#D4CDF4" 
+background_color: "#1B1B3A" 
+
+# Text Content
+header_text: "Explore the World with Me"
+hero_section_text: "I'm a passionate traveler, photographer, and blogger. Join me on my adventures!"
+footer_text: "© 2023 My Awesome Website. All Rights Reserved."
