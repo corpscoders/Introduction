@@ -3,20 +3,7 @@
 <head>
   <title>My Awesome Website</title>
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script> 
-  <script>
-    fetch("settings.yaml") // Adjust the path if needed
-      .then(response => response.text())
-      .then(yamlText => {
-        const settings = jsyaml.load(yamlText);
-
-        // Update the website
-        document.title = settings.site_title;
-        document.getElementById("h1").textContent = settings.site_description;
-        document.body.style.color = settings.primary_color
-        document.body.style.backgroundColor = settings.background_color;
-        // ... update other elements as needed
-      });
-  </script>
+  <script src="script.js"></script>
 </head>
 <body>
   <h1 id="h1"></h1> 
